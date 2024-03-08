@@ -41,4 +41,7 @@ ajout du monitoring d'utilisation cpu dans le dashboard
 dashboard dans grafana
 ![alt text](image-10.png)
 
+test avec une charge artificielle
+![alt text](image-11.png)
+
 
