@@ -31,4 +31,14 @@ datasource prometheus dans grafana
 prometheus job dans grafana
 ![alt text](image-7.png)
 
+connexion a prometheus dans grafana
+![alt text](image-8.png)
+
+ajout du monitoring d'utilisation cpu dans le dashboard
+![alt text](image-9.png)
+
+
 dashboard dans grafana
+![alt text](image-10.png)
+
+
