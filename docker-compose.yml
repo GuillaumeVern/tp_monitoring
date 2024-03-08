@@ -12,4 +12,25 @@ services:
       - '9090:9090'
     networks:
       - tp_monitoring
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - '3000:3000'
+    environment:
+      - GF_METRICS_ENABLED=true
+    networks:
+      - tp_monitoring
+  node-exporter:
+    image: prom/node-exporter
+    container_name: node-exporter
+    ports:
+      - '9100:9100'
+    networks:
+      - tp_monitoring
+  
+
+
+networks:
+  tp_monitoring:
   

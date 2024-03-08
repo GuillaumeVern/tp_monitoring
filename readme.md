@@ -19,3 +19,16 @@ second test avec l'utilisation du cpu
 
 ![cpu metric](image-2.png)
 
+
+ajout d'autres service a monitorer
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+datasource prometheus dans grafana
+![alt text](image-8.png)
+
+prometheus job dans grafana
+![alt text](image-7.png)
+
+dashboard dans grafana
